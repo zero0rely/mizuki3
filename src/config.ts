@@ -50,17 +50,17 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "君に茜 Blog",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/home.png",
 	},
 
 	bangumi: {
-		userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "900043", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
 
 	anime: {
-		mode: "local", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置
+		mode: "bangumi", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置
 	},
 
 	// 文章列表布局配置
@@ -81,7 +81,7 @@ export const siteConfig: SiteConfig = {
 	// 壁纸模式配置
 	wallpaperMode: {
 		// 默认壁纸模式：banner=顶部横幅，fullscreen=全屏壁纸，none=无壁纸
-		defaultMode: "banner",
+		defaultMode: "fullscreen",
 		// 整体布局方案切换按钮显示设置（默认："desktop"）
 		// "off" = 不显示
 		// "mobile" = 仅在移动端显示
