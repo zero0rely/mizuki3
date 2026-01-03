@@ -359,7 +359,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Email",
-			icon: "ic:baseline-email",
+			icon: "mdi:email",
 			url: "mailto:18519798091@163.com",
 		},
 		{
