@@ -245,21 +245,21 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/zero0rely/mizuki3",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/503239202",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "Steam",
+					url: "https://steamcommunity.com/id/kmnakane/",
 					external: true,
-					icon: "mdi:git",
+					icon: "ri:steam-fill",
 				},
 			],
 		},
@@ -334,9 +334,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Matsuzaka Yuki",
-	bio: "The world is big, you have to go and see",
+	avatar: "https://vip.123pan.cn/1827576886/yk6baz03t0m000d7w33gwxekij9jv4qeDIYvAwJ0AqY1ApxwDwavDa==.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "kmnakane",
+	bio: "我在青空之下等待着你",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -345,27 +345,27 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/503239202",
 		},
 		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			name: "Steam",
+			icon: "ri:steam-fill",
+			url: "https://steamcommunity.com/id/kmnakane/",	
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/zero0rely/mizuki3",
 		},
 		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
+			name: "Email",
+			icon: "ic:baseline-email",
+			url: "mailto:18519798091@163.com",
 		},
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://discord.gg/9xU7Er3Z6b",
 		},
 	],
 };
