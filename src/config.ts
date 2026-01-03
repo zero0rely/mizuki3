@@ -24,7 +24,7 @@ export const siteConfig: SiteConfig = {
 	title: "君に茜 Blog",
 	subtitle: "因为夏日将终",
 	siteURL: "https://mizuki3.vercel.app/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-12-27s", // 站点开始运行日期，用于站点统计组件计算运行天数
+	siteStartDate: "2025-12-27", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
