@@ -259,7 +259,7 @@ export const navBarConfig: NavBarConfig = {
 					name: "Steam",
 					url: "https://steamcommunity.com/id/kmnakane/",
 					external: true,
-					icon: "ri:steam-fill",
+					icon: "mdi:steam",
 				},
 			],
 		},
@@ -349,7 +349,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Steam",
-			icon: "ri:steam-fill",
+			icon: "mdi:steam",
 			url: "https://steamcommunity.com/id/kmnakane/",	
 		},
 		{
